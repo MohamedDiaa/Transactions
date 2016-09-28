@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface Rate : NSObject
-@property(nonatomic,retain)NSString* from;
-@property(nonatomic,retain)NSString* to;
-@property(nonatomic,assign)double* rate;
 
+@property(nonatomic,retain)NSString* to;
+@property(nonatomic,retain)NSString* from;
+@property(nonatomic,assign)double rate;
+
+- (instancetype)initFromCurrency:(NSString*)from to:(NSString*)to rate:(double)rate;
+-(Rate*)oppositeRate;
 
 @end
