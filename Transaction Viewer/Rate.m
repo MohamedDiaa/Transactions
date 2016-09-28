@@ -20,6 +20,7 @@
     }
     return self;
 }
+
 +(NSDictionary*)LoadRates{
     
     //Returns Dictionry with Keys Currency and value is it's rate with GBP.
@@ -30,14 +31,12 @@
         
         NSMutableDictionary* ratesClusters = [[NSMutableDictionary alloc] init];
 
-
         for(int index = 0 ; index < ratesDic.count ; index++)
         {
             NSMutableDictionary * dic = ratesDic[index];
             NSString* from = dic[@"from"];
             NSNumber* rateValue = dic[@"rate"];
             NSString* to = dic[@"to"];
-            
             
             if (from!= nil && rateValue != nil && to != nil){
                 
@@ -53,7 +52,6 @@
                     [ratesClusters setObject:fromCluster forKey:from];
                 }
             
-            
             Rate* oppositeRate = [rate oppositeRate];
             
             NSMutableArray* toCluster = [ratesClusters objectForKey:to];
@@ -64,14 +62,27 @@
             }else{
                 [toCluster addObject:oppositeRate];
                 [ratesClusters setObject:toCluster forKey:to];
-                
                 }
             }
         }
-        
         return ratesClusters;
     }
     return nil;
+}
+
+
++(NSDictionary*)CurrencyRatesToGBP{
+
+    NSDictionary* currenciesCluster = [Rate LoadRates];
+    
+    NSArray* currencies = [currenciesCluster allKeys];
+    NSMutableArray* vertics = [[NSMutableArray alloc] init];
+    for(int index = 0 ; index < currencies.count ; index++){
+//        [vertics addObject:VertexState.white]
+    }
+    NSMutableDictionary* GBPRates = [[NSMutableDictionary alloc] init];
+    
+    return GBPRates;
 }
 
 -(Rate*)oppositeRate{

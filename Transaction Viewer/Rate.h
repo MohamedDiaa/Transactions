@@ -6,6 +6,14 @@
 //  Copyright © 2016 MohamedDiaa. All rights reserved.
 //
 
+
+typedef enum {
+    White = 1,
+    Gray,
+    Black
+} VertexState;
+
+
 #import <Foundation/Foundation.h>
 
 @interface Rate : NSObject
