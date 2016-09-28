@@ -14,7 +14,7 @@
 @implementation ListViewController
 
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil title:(NSString *)title data:(NSArray *)dataArray action:(void (^)(Transaction* t))action
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil title:(NSString *)title data:(NSDictionary *)dataDic action:(void (^)(Transaction* t))action
 {
     self = [super initWithNibName: nibNameOrNil
                            bundle: nibBundleOrNil];
@@ -22,7 +22,7 @@
     {
         // Custom stuff
         self.title = title;
-        self.dataArray = dataArray;
+        self.dataDic = dataDic;
     }
     return self;
 }
@@ -51,8 +51,8 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if(self.dataArray != nil){
-        return  self.dataArray.count;
+    if(self.dataDic != nil){
+        return  self.dataDic.allKeys.count;
     }
     return 0;
 }
@@ -67,10 +67,11 @@
         
     }
     
-    if(self.dataArray != nil && self.dataArray.count > indexPath.row){
-        Transaction* t = self.dataArray[indexPath.row];
-        rowCell.textLabel.text = t.sku;
-        rowCell.detailTextLabel.text = [NSString stringWithFormat:@"%@ transactions",t.currency];
+    if(self.dataDic != nil && self.dataDic.count > indexPath.row){
+        NSString* key = self.dataDic.allKeys[indexPath.row];
+        rowCell.textLabel.text = key;
+        NSArray* dataArray = self.dataDic[key];
+        rowCell.detailTextLabel.text = [NSString stringWithFormat:@"%d transactions",dataArray.count];
     }
     return rowCell;
 }

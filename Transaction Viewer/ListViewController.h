@@ -12,8 +12,9 @@
 
 @interface ListViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
-@property(nonatomic,retain)NSArray* dataArray;
+//@property(nonatomic,retain)NSArray* dataArray;
+@property(nonatomic,retain)NSDictionary* dataDic;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil title:(NSString *)title data:(NSArray *)dataArray action:(void (^)(Transaction* t))action;
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil title:(NSString *)title data:(NSDictionary *)dataDic action:(void (^)(Transaction* t))action;
 
 @end
