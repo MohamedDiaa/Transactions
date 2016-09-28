@@ -14,7 +14,23 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="E6E-tp-H2a">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="nys-5G-fBZ"/>
+                        <outlet property="delegate" destination="-1" id="JXx-ng-DZF"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="E6E-tp-H2a" secondAttribute="trailing" id="95R-l3-GFK"/>
+                <constraint firstAttribute="bottom" secondItem="E6E-tp-H2a" secondAttribute="bottom" id="Q5y-IH-K54"/>
+                <constraint firstItem="E6E-tp-H2a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="aGN-pQ-WPm"/>
+                <constraint firstItem="E6E-tp-H2a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="v0T-L5-dNp"/>
+            </constraints>
         </view>
     </objects>
 </document>

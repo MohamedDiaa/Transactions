@@ -21,8 +21,10 @@
     // Do any additional setup after loading the view, typically from a nib.
    // ListViewController * listController = [[ListViewController alloc] initWithNibName:@"ListViewController" bundle:nil ];
     
-   ListViewController * listController = [[ListViewController alloc] initWithNibName:@"ListViewController" bundle:nil title:@"Products" data:[Transaction LoadTransaction] action:^(Transaction *t) {
+  
+    ListViewController * listController = [[ListViewController alloc] initWithNibName:@"ListViewController" bundle:nil title:@"Products" data:[Transaction LoadTransaction] action:^(Transaction *t) {
         
+   
     }];
     
     

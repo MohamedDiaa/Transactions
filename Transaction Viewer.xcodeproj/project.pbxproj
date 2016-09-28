@@ -21,12 +21,6 @@
 		D90542A21D9C3DF500522A9B /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D905429E1D9C3DF500522A9B /* ProductViewController.xib */; };
 		D90542A31D9C3DF500522A9B /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D905429E1D9C3DF500522A9B /* ProductViewController.xib */; };
 		D90542A41D9C3DF500522A9B /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D905429E1D9C3DF500522A9B /* ProductViewController.xib */; };
-		D90542AA1D9C3E4700522A9B /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542A81D9C3E4700522A9B /* TransactionsViewController.m */; };
-		D90542AB1D9C3E4700522A9B /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542A81D9C3E4700522A9B /* TransactionsViewController.m */; };
-		D90542AC1D9C3E4700522A9B /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542A81D9C3E4700522A9B /* TransactionsViewController.m */; };
-		D90542AD1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */; };
-		D90542AE1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */; };
-		D90542AF1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */; };
 		D90542B41D9C3E9800522A9B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542B21D9C3E9800522A9B /* ListViewController.m */; };
 		D90542B51D9C3E9800522A9B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542B21D9C3E9800522A9B /* ListViewController.m */; };
 		D90542B61D9C3E9800522A9B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542B21D9C3E9800522A9B /* ListViewController.m */; };
@@ -81,9 +75,6 @@
 		D905429C1D9C3DF500522A9B /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
 		D905429D1D9C3DF500522A9B /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
 		D905429E1D9C3DF500522A9B /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
-		D90542A71D9C3E4700522A9B /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsViewController.h; sourceTree = "<group>"; };
-		D90542A81D9C3E4700522A9B /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsViewController.m; sourceTree = "<group>"; };
-		D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionsViewController.xib; sourceTree = "<group>"; };
 		D90542B11D9C3E9800522A9B /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		D90542B21D9C3E9800522A9B /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
 		D90542B31D9C3E9800522A9B /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
@@ -190,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				D90542B01D9C3E8600522A9B /* List Controller */,
-				D90542A61D9C3E2900522A9B /* Transactions */,
 				D90542A51D9C3E0100522A9B /* Product */,
 			);
 			name = Controllers;
@@ -204,16 +194,6 @@
 				D905429E1D9C3DF500522A9B /* ProductViewController.xib */,
 			);
 			name = Product;
-			sourceTree = "<group>";
-		};
-		D90542A61D9C3E2900522A9B /* Transactions */ = {
-			isa = PBXGroup;
-			children = (
-				D90542A71D9C3E4700522A9B /* TransactionsViewController.h */,
-				D90542A81D9C3E4700522A9B /* TransactionsViewController.m */,
-				D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */,
-			);
-			name = Transactions;
 			sourceTree = "<group>";
 		};
 		D90542B01D9C3E8600522A9B /* List Controller */ = {
@@ -352,7 +332,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D90542AD1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */,
 				D90542781D9C3DBB00522A9B /* LaunchScreen.storyboard in Resources */,
 				D90542C81D9C45FD00522A9B /* rates.plist in Resources */,
 				D90542B71D9C3E9800522A9B /* ListViewController.xib in Resources */,
@@ -368,7 +347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90542A31D9C3DF500522A9B /* ProductViewController.xib in Resources */,
-				D90542AE1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */,
 				D90542B81D9C3E9800522A9B /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +356,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90542A41D9C3DF500522A9B /* ProductViewController.xib in Resources */,
-				D90542AF1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */,
 				D90542B91D9C3E9800522A9B /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +375,6 @@
 				D90542C21D9C44FB00522A9B /* Rate.m in Sources */,
 				D905426A1D9C3DBB00522A9B /* main.m in Sources */,
 				D90542CD1D9C466700522A9B /* Helper.m in Sources */,
-				D90542AA1D9C3E4700522A9B /* TransactionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +387,6 @@
 				D90542B51D9C3E9800522A9B /* ListViewController.m in Sources */,
 				D90542C31D9C44FB00522A9B /* Rate.m in Sources */,
 				D90542BE1D9C446C00522A9B /* Transaction.m in Sources */,
-				D90542AB1D9C3E4700522A9B /* TransactionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +399,6 @@
 				D90542B61D9C3E9800522A9B /* ListViewController.m in Sources */,
 				D90542C41D9C44FB00522A9B /* Rate.m in Sources */,
 				D90542BF1D9C446C00522A9B /* Transaction.m in Sources */,
-				D90542AC1D9C3E4700522A9B /* TransactionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -632,6 +606,7 @@
 				D90542941D9C3DBB00522A9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D90542951D9C3DBB00522A9B /* Build configuration list for PBXNativeTarget "Transaction ViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +615,7 @@
 				D90542971D9C3DBB00522A9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D90542981D9C3DBB00522A9B /* Build configuration list for PBXNativeTarget "Transaction ViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -648,6 +624,7 @@
 				D905429A1D9C3DBB00522A9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

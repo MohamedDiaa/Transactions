@@ -7,6 +7,8 @@
 //
 
 #import "ListViewController.h"
+#import "ProductViewController.h"
+
 @interface ListViewController ()
 
 @end
@@ -71,14 +73,24 @@
         NSString* key = self.dataDic.allKeys[indexPath.row];
         rowCell.textLabel.text = key;
         NSArray* dataArray = self.dataDic[key];
-        rowCell.detailTextLabel.text = [NSString stringWithFormat:@"%d transactions",dataArray.count];
+        rowCell.detailTextLabel.text = [NSString stringWithFormat:@"%lu transactions",dataArray.count];
     }
     return rowCell;
 }
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
+    if(self.dataDic != nil && self.dataDic.count > indexPath.row){
+        NSString* key = self.dataDic.allKeys[indexPath.row];
+        NSArray* dataArray = self.dataDic[key];
+
+        if(dataArray != nil ){
+            NSString * productTitle = [NSString stringWithFormat:@"Transactions for %@",key];
+            
+            ProductViewController* p = [[ProductViewController alloc] initWithNibName:@"ProductViewController" bundle:nil title:productTitle data:dataArray];
+            [self.navigationController pushViewController:p animated:true];
+        }
+    }
 }
 
 

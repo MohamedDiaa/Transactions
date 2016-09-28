@@ -10,10 +10,13 @@
 #import "Helper.h"
 #import "Transaction.h"
 
+
 @interface ListViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
 //@property(nonatomic,retain)NSArray* dataArray;
 @property(nonatomic,retain)NSDictionary* dataDic;
+
+//@property(nonatomic,retain)Action* (void (^)(Transaction* t));
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil title:(NSString *)title data:(NSDictionary *)dataDic action:(void (^)(Transaction* t))action;
 
