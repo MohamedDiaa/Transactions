@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Transaction.h"
+#import "Rate.h"
 
 @interface Helper : NSObject
 

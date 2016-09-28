@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Helper.h"
+#import "Transaction.h"
 
 @interface ListViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
+@property(nonatomic,retain)NSArray* dataArray;
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil title:(NSString *)title data:(NSArray *)dataArray action:(void (^)(Transaction* t))action;
 
 @end

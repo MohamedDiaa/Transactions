@@ -7,7 +7,6 @@
 //
 
 #import "ListViewController.h"
-
 @interface ListViewController ()
 
 @end
@@ -15,13 +14,15 @@
 @implementation ListViewController
 
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil title:(NSString *)title data:(NSArray *)dataArray action:(void (^)(id JSON))action
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil title:(NSString *)title data:(NSArray *)dataArray action:(void (^)(Transaction* t))action
 {
     self = [super initWithNibName: nibNameOrNil
                            bundle: nibBundleOrNil];
     if (self)
     {
         // Custom stuff
+        self.title = title;
+        self.dataArray = dataArray;
     }
     return self;
 }
@@ -45,12 +46,15 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 90;
+    return 40;
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 10;
+    if(self.dataArray != nil){
+        return  self.dataArray.count;
+    }
+    return 0;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -62,8 +66,12 @@
         rowCell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:cellIdentifier];
         
     }
-    rowCell.textLabel.text = @"Hello";
-    rowCell.detailTextLabel.text = @"Hello";
+    
+    if(self.dataArray != nil && self.dataArray.count > indexPath.row){
+        Transaction* t = self.dataArray[indexPath.row];
+        rowCell.textLabel.text = t.sku;
+        rowCell.detailTextLabel.text = [NSString stringWithFormat:@"%@ transactions",t.currency];
+    }
     return rowCell;
 }
 

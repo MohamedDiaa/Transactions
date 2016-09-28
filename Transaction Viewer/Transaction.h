@@ -14,4 +14,5 @@
 @property(nonatomic,retain)NSString * currency;
 @property(nonatomic,retain)NSString * sku;
 
++(NSArray*)LoadTransaction;
 @end

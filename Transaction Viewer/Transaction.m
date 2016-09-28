@@ -26,6 +26,8 @@
     
     NSString * transactionsPath  = [[NSBundle mainBundle] pathForResource:@"transactions.plist" ofType:nil];
     NSArray* transactionsDic = [NSArray arrayWithContentsOfFile:transactionsPath];
+    if (transactionsDic!= nil){
+        
     NSMutableArray* transactions = [[NSMutableArray alloc] init];
     
     for(int index = 0 ; index < transactionsDic.count ; index++)
@@ -43,6 +45,8 @@
     }
     
     return transactions;
+    }
+    return nil;
 }
 
 @end
