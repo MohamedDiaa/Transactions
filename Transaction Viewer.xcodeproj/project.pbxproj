@@ -15,6 +15,33 @@
 		D90542781D9C3DBB00522A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90542761D9C3DBB00522A9B /* LaunchScreen.storyboard */; };
 		D90542831D9C3DBB00522A9B /* Transaction_ViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542821D9C3DBB00522A9B /* Transaction_ViewerTests.m */; };
 		D905428E1D9C3DBB00522A9B /* Transaction_ViewerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D905428D1D9C3DBB00522A9B /* Transaction_ViewerUITests.m */; };
+		D905429F1D9C3DF500522A9B /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D905429D1D9C3DF500522A9B /* ProductViewController.m */; };
+		D90542A01D9C3DF500522A9B /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D905429D1D9C3DF500522A9B /* ProductViewController.m */; };
+		D90542A11D9C3DF500522A9B /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D905429D1D9C3DF500522A9B /* ProductViewController.m */; };
+		D90542A21D9C3DF500522A9B /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D905429E1D9C3DF500522A9B /* ProductViewController.xib */; };
+		D90542A31D9C3DF500522A9B /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D905429E1D9C3DF500522A9B /* ProductViewController.xib */; };
+		D90542A41D9C3DF500522A9B /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D905429E1D9C3DF500522A9B /* ProductViewController.xib */; };
+		D90542AA1D9C3E4700522A9B /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542A81D9C3E4700522A9B /* TransactionsViewController.m */; };
+		D90542AB1D9C3E4700522A9B /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542A81D9C3E4700522A9B /* TransactionsViewController.m */; };
+		D90542AC1D9C3E4700522A9B /* TransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542A81D9C3E4700522A9B /* TransactionsViewController.m */; };
+		D90542AD1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */; };
+		D90542AE1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */; };
+		D90542AF1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */; };
+		D90542B41D9C3E9800522A9B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542B21D9C3E9800522A9B /* ListViewController.m */; };
+		D90542B51D9C3E9800522A9B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542B21D9C3E9800522A9B /* ListViewController.m */; };
+		D90542B61D9C3E9800522A9B /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542B21D9C3E9800522A9B /* ListViewController.m */; };
+		D90542B71D9C3E9800522A9B /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542B31D9C3E9800522A9B /* ListViewController.xib */; };
+		D90542B81D9C3E9800522A9B /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542B31D9C3E9800522A9B /* ListViewController.xib */; };
+		D90542B91D9C3E9800522A9B /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D90542B31D9C3E9800522A9B /* ListViewController.xib */; };
+		D90542BD1D9C446C00522A9B /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542BC1D9C446C00522A9B /* Transaction.m */; };
+		D90542BE1D9C446C00522A9B /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542BC1D9C446C00522A9B /* Transaction.m */; };
+		D90542BF1D9C446C00522A9B /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542BC1D9C446C00522A9B /* Transaction.m */; };
+		D90542C21D9C44FB00522A9B /* Rate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542C11D9C44FB00522A9B /* Rate.m */; };
+		D90542C31D9C44FB00522A9B /* Rate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542C11D9C44FB00522A9B /* Rate.m */; };
+		D90542C41D9C44FB00522A9B /* Rate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542C11D9C44FB00522A9B /* Rate.m */; };
+		D90542C81D9C45FD00522A9B /* rates.plist in Resources */ = {isa = PBXBuildFile; fileRef = D90542C61D9C45FD00522A9B /* rates.plist */; };
+		D90542C91D9C45FD00522A9B /* transactions.plist in Resources */ = {isa = PBXBuildFile; fileRef = D90542C71D9C45FD00522A9B /* transactions.plist */; };
+		D90542CD1D9C466700522A9B /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D90542CC1D9C466700522A9B /* Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +78,23 @@
 		D90542891D9C3DBB00522A9B /* Transaction ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Transaction ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D905428D1D9C3DBB00522A9B /* Transaction_ViewerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Transaction_ViewerUITests.m; sourceTree = "<group>"; };
 		D905428F1D9C3DBB00522A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D905429C1D9C3DF500522A9B /* ProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		D905429D1D9C3DF500522A9B /* ProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		D905429E1D9C3DF500522A9B /* ProductViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
+		D90542A71D9C3E4700522A9B /* TransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionsViewController.h; sourceTree = "<group>"; };
+		D90542A81D9C3E4700522A9B /* TransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionsViewController.m; sourceTree = "<group>"; };
+		D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionsViewController.xib; sourceTree = "<group>"; };
+		D90542B11D9C3E9800522A9B /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		D90542B21D9C3E9800522A9B /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		D90542B31D9C3E9800522A9B /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		D90542BB1D9C446C00522A9B /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		D90542BC1D9C446C00522A9B /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		D90542C01D9C44FB00522A9B /* Rate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rate.h; sourceTree = "<group>"; };
+		D90542C11D9C44FB00522A9B /* Rate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rate.m; sourceTree = "<group>"; };
+		D90542C61D9C45FD00522A9B /* rates.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = rates.plist; sourceTree = "<group>"; };
+		D90542C71D9C45FD00522A9B /* transactions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = transactions.plist; sourceTree = "<group>"; };
+		D90542CB1D9C466700522A9B /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		D90542CC1D9C466700522A9B /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +145,7 @@
 		D90542671D9C3DBB00522A9B /* Transaction Viewer */ = {
 			isa = PBXGroup;
 			children = (
+				D90542BA1D9C425800522A9B /* Model */,
 				D905426B1D9C3DBB00522A9B /* AppDelegate.h */,
 				D905426C1D9C3DBB00522A9B /* AppDelegate.m */,
 				D905426E1D9C3DBB00522A9B /* ViewController.h */,
@@ -109,6 +154,7 @@
 				D90542741D9C3DBB00522A9B /* Assets.xcassets */,
 				D90542761D9C3DBB00522A9B /* LaunchScreen.storyboard */,
 				D90542791D9C3DBB00522A9B /* Info.plist */,
+				D905429B1D9C3DDA00522A9B /* Controllers */,
 				D90542681D9C3DBB00522A9B /* Supporting Files */,
 			);
 			path = "Transaction Viewer";
@@ -138,6 +184,69 @@
 				D905428F1D9C3DBB00522A9B /* Info.plist */,
 			);
 			path = "Transaction ViewerUITests";
+			sourceTree = "<group>";
+		};
+		D905429B1D9C3DDA00522A9B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D90542B01D9C3E8600522A9B /* List Controller */,
+				D90542A61D9C3E2900522A9B /* Transactions */,
+				D90542A51D9C3E0100522A9B /* Product */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D90542A51D9C3E0100522A9B /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				D905429C1D9C3DF500522A9B /* ProductViewController.h */,
+				D905429D1D9C3DF500522A9B /* ProductViewController.m */,
+				D905429E1D9C3DF500522A9B /* ProductViewController.xib */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		D90542A61D9C3E2900522A9B /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				D90542A71D9C3E4700522A9B /* TransactionsViewController.h */,
+				D90542A81D9C3E4700522A9B /* TransactionsViewController.m */,
+				D90542A91D9C3E4700522A9B /* TransactionsViewController.xib */,
+			);
+			name = Transactions;
+			sourceTree = "<group>";
+		};
+		D90542B01D9C3E8600522A9B /* List Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D90542B11D9C3E9800522A9B /* ListViewController.h */,
+				D90542B21D9C3E9800522A9B /* ListViewController.m */,
+				D90542B31D9C3E9800522A9B /* ListViewController.xib */,
+			);
+			name = "List Controller";
+			sourceTree = "<group>";
+		};
+		D90542BA1D9C425800522A9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D90542CB1D9C466700522A9B /* Helper.h */,
+				D90542CC1D9C466700522A9B /* Helper.m */,
+				D90542C51D9C45EB00522A9B /* FIles */,
+				D90542BB1D9C446C00522A9B /* Transaction.h */,
+				D90542BC1D9C446C00522A9B /* Transaction.m */,
+				D90542C01D9C44FB00522A9B /* Rate.h */,
+				D90542C11D9C44FB00522A9B /* Rate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D90542C51D9C45EB00522A9B /* FIles */ = {
+			isa = PBXGroup;
+			children = (
+				D90542C61D9C45FD00522A9B /* rates.plist */,
+				D90542C71D9C45FD00522A9B /* transactions.plist */,
+			);
+			name = FIles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +352,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90542AD1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */,
 				D90542781D9C3DBB00522A9B /* LaunchScreen.storyboard in Resources */,
+				D90542C81D9C45FD00522A9B /* rates.plist in Resources */,
+				D90542B71D9C3E9800522A9B /* ListViewController.xib in Resources */,
 				D90542751D9C3DBB00522A9B /* Assets.xcassets in Resources */,
+				D90542C91D9C45FD00522A9B /* transactions.plist in Resources */,
+				D90542A21D9C3DF500522A9B /* ProductViewController.xib in Resources */,
 				D90542731D9C3DBB00522A9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +367,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90542A31D9C3DF500522A9B /* ProductViewController.xib in Resources */,
+				D90542AE1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */,
+				D90542B81D9C3E9800522A9B /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +377,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90542A41D9C3DF500522A9B /* ProductViewController.xib in Resources */,
+				D90542AF1D9C3E4700522A9B /* TransactionsViewController.xib in Resources */,
+				D90542B91D9C3E9800522A9B /* ListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +390,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90542BD1D9C446C00522A9B /* Transaction.m in Sources */,
 				D90542701D9C3DBB00522A9B /* ViewController.m in Sources */,
 				D905426D1D9C3DBB00522A9B /* AppDelegate.m in Sources */,
+				D90542B41D9C3E9800522A9B /* ListViewController.m in Sources */,
+				D905429F1D9C3DF500522A9B /* ProductViewController.m in Sources */,
+				D90542C21D9C44FB00522A9B /* Rate.m in Sources */,
 				D905426A1D9C3DBB00522A9B /* main.m in Sources */,
+				D90542CD1D9C466700522A9B /* Helper.m in Sources */,
+				D90542AA1D9C3E4700522A9B /* TransactionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +406,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90542A01D9C3DF500522A9B /* ProductViewController.m in Sources */,
 				D90542831D9C3DBB00522A9B /* Transaction_ViewerTests.m in Sources */,
+				D90542B51D9C3E9800522A9B /* ListViewController.m in Sources */,
+				D90542C31D9C44FB00522A9B /* Rate.m in Sources */,
+				D90542BE1D9C446C00522A9B /* Transaction.m in Sources */,
+				D90542AB1D9C3E4700522A9B /* TransactionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +419,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D90542A11D9C3DF500522A9B /* ProductViewController.m in Sources */,
 				D905428E1D9C3DBB00522A9B /* Transaction_ViewerUITests.m in Sources */,
+				D90542B61D9C3E9800522A9B /* ListViewController.m in Sources */,
+				D90542C41D9C44FB00522A9B /* Rate.m in Sources */,
+				D90542BF1D9C446C00522A9B /* Transaction.m in Sources */,
+				D90542AC1D9C3E4700522A9B /* TransactionsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

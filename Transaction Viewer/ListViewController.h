@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ListViewController.h
 //  Transaction Viewer
 //
 //  Created by MohamedDiaa on 9/28/16.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ListViewController : UIViewController <UITableViewDelegate,UITableViewDataSource>
 
-@property (strong, nonatomic) UINavigationController * navController;
 
 @end
-

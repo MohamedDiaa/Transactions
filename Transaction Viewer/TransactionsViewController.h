@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TransactionsViewController.h
 //  Transaction Viewer
 //
 //  Created by MohamedDiaa on 9/28/16.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-@property (strong, nonatomic) UINavigationController * navController;
+@interface TransactionsViewController : UIViewController
 
 @end
-

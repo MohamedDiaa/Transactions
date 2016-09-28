@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "ListViewController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    ListViewController * listController = [[ListViewController alloc] initWithNibName:@"ListViewController" bundle:nil];
+    
+    self.navController = [[UINavigationController alloc] initWithRootViewController:listController];
+    
+    [self.view addSubview:self.navController.view];
+    
 }
 
 - (void)didReceiveMemoryWarning {
