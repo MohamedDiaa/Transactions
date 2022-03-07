@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		839A545127D66F9D004BC35F /* BadooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A545027D66F9D004BC35F /* BadooApp.swift */; };
+		839A545327D66F9D004BC35F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A545227D66F9D004BC35F /* ContentView.swift */; };
+		839A545527D66F9E004BC35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839A545427D66F9E004BC35F /* Assets.xcassets */; };
+		839A545827D66F9E004BC35F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839A545727D66F9E004BC35F /* Preview Assets.xcassets */; };
+		839A546227D66F9E004BC35F /* BadooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A546127D66F9E004BC35F /* BadooTests.swift */; };
+		839A546C27D66F9E004BC35F /* BadooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A546B27D66F9E004BC35F /* BadooUITests.swift */; };
+		839A546E27D66F9E004BC35F /* BadooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A546D27D66F9E004BC35F /* BadooUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		839A545E27D66F9E004BC35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839A544527D66F9D004BC35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839A544C27D66F9D004BC35F;
+			remoteInfo = Badoo;
+		};
+		839A546827D66F9E004BC35F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839A544527D66F9D004BC35F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839A544C27D66F9D004BC35F;
+			remoteInfo = Badoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		839A544D27D66F9D004BC35F /* Badoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		839A545027D66F9D004BC35F /* BadooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadooApp.swift; sourceTree = "<group>"; };
+		839A545227D66F9D004BC35F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		839A545427D66F9E004BC35F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		839A545727D66F9E004BC35F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		839A545D27D66F9E004BC35F /* BadooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839A546127D66F9E004BC35F /* BadooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadooTests.swift; sourceTree = "<group>"; };
+		839A546727D66F9E004BC35F /* BadooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		839A546B27D66F9E004BC35F /* BadooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadooUITests.swift; sourceTree = "<group>"; };
+		839A546D27D66F9E004BC35F /* BadooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		839A544A27D66F9D004BC35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A545A27D66F9E004BC35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A546427D66F9E004BC35F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		839A544427D66F9D004BC35F = {
+			isa = PBXGroup;
+			children = (
+				839A544F27D66F9D004BC35F /* Badoo */,
+				839A546027D66F9E004BC35F /* BadooTests */,
+				839A546A27D66F9E004BC35F /* BadooUITests */,
+				839A544E27D66F9D004BC35F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		839A544E27D66F9D004BC35F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				839A544D27D66F9D004BC35F /* Badoo.app */,
+				839A545D27D66F9E004BC35F /* BadooTests.xctest */,
+				839A546727D66F9E004BC35F /* BadooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		839A544F27D66F9D004BC35F /* Badoo */ = {
+			isa = PBXGroup;
+			children = (
+				839A545027D66F9D004BC35F /* BadooApp.swift */,
+				839A545227D66F9D004BC35F /* ContentView.swift */,
+				839A545427D66F9E004BC35F /* Assets.xcassets */,
+				839A545627D66F9E004BC35F /* Preview Content */,
+			);
+			path = Badoo;
+			sourceTree = "<group>";
+		};
+		839A545627D66F9E004BC35F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				839A545727D66F9E004BC35F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		839A546027D66F9E004BC35F /* BadooTests */ = {
+			isa = PBXGroup;
+			children = (
+				839A546127D66F9E004BC35F /* BadooTests.swift */,
+			);
+			path = BadooTests;
+			sourceTree = "<group>";
+		};
+		839A546A27D66F9E004BC35F /* BadooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				839A546B27D66F9E004BC35F /* BadooUITests.swift */,
+				839A546D27D66F9E004BC35F /* BadooUITestsLaunchTests.swift */,
+			);
+			path = BadooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		839A544C27D66F9D004BC35F /* Badoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839A547127D66F9E004BC35F /* Build configuration list for PBXNativeTarget "Badoo" */;
+			buildPhases = (
+				839A544927D66F9D004BC35F /* Sources */,
+				839A544A27D66F9D004BC35F /* Frameworks */,
+				839A544B27D66F9D004BC35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Badoo;
+			productName = Badoo;
+			productReference = 839A544D27D66F9D004BC35F /* Badoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		839A545C27D66F9E004BC35F /* BadooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839A547427D66F9E004BC35F /* Build configuration list for PBXNativeTarget "BadooTests" */;
+			buildPhases = (
+				839A545927D66F9E004BC35F /* Sources */,
+				839A545A27D66F9E004BC35F /* Frameworks */,
+				839A545B27D66F9E004BC35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839A545F27D66F9E004BC35F /* PBXTargetDependency */,
+			);
+			name = BadooTests;
+			productName = BadooTests;
+			productReference = 839A545D27D66F9E004BC35F /* BadooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		839A546627D66F9E004BC35F /* BadooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 839A547727D66F9E004BC35F /* Build configuration list for PBXNativeTarget "BadooUITests" */;
+			buildPhases = (
+				839A546327D66F9E004BC35F /* Sources */,
+				839A546427D66F9E004BC35F /* Frameworks */,
+				839A546527D66F9E004BC35F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				839A546927D66F9E004BC35F /* PBXTargetDependency */,
+			);
+			name = BadooUITests;
+			productName = BadooUITests;
+			productReference = 839A546727D66F9E004BC35F /* BadooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		839A544527D66F9D004BC35F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					839A544C27D66F9D004BC35F = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					839A545C27D66F9E004BC35F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 839A544C27D66F9D004BC35F;
+					};
+					839A546627D66F9E004BC35F = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 839A544C27D66F9D004BC35F;
+					};
+				};
+			};
+			buildConfigurationList = 839A544827D66F9D004BC35F /* Build configuration list for PBXProject "Badoo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 839A544427D66F9D004BC35F;
+			productRefGroup = 839A544E27D66F9D004BC35F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				839A544C27D66F9D004BC35F /* Badoo */,
+				839A545C27D66F9E004BC35F /* BadooTests */,
+				839A546627D66F9E004BC35F /* BadooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		839A544B27D66F9D004BC35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A545827D66F9E004BC35F /* Preview Assets.xcassets in Resources */,
+				839A545527D66F9E004BC35F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A545B27D66F9E004BC35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A546527D66F9E004BC35F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		839A544927D66F9D004BC35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A545327D66F9D004BC35F /* ContentView.swift in Sources */,
+				839A545127D66F9D004BC35F /* BadooApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A545927D66F9E004BC35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A546227D66F9E004BC35F /* BadooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		839A546327D66F9E004BC35F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A546E27D66F9E004BC35F /* BadooUITestsLaunchTests.swift in Sources */,
+				839A546C27D66F9E004BC35F /* BadooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		839A545F27D66F9E004BC35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839A544C27D66F9D004BC35F /* Badoo */;
+			targetProxy = 839A545E27D66F9E004BC35F /* PBXContainerItemProxy */;
+		};
+		839A546927D66F9E004BC35F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839A544C27D66F9D004BC35F /* Badoo */;
+			targetProxy = 839A546827D66F9E004BC35F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		839A546F27D66F9E004BC35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		839A547027D66F9E004BC35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		839A547227D66F9E004BC35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Badoo/Preview Content\"";
+				DEVELOPMENT_TEAM = K2KX53Y52U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qvik.Badoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		839A547327D66F9E004BC35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Badoo/Preview Content\"";
+				DEVELOPMENT_TEAM = K2KX53Y52U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qvik.Badoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		839A547527D66F9E004BC35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2KX53Y52U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qvik.BadooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badoo.app/Badoo";
+			};
+			name = Debug;
+		};
+		839A547627D66F9E004BC35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2KX53Y52U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qvik.BadooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Badoo.app/Badoo";
+			};
+			name = Release;
+		};
+		839A547827D66F9E004BC35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2KX53Y52U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qvik.BadooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Badoo;
+			};
+			name = Debug;
+		};
+		839A547927D66F9E004BC35F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K2KX53Y52U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Qvik.BadooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Badoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		839A544827D66F9D004BC35F /* Build configuration list for PBXProject "Badoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A546F27D66F9E004BC35F /* Debug */,
+				839A547027D66F9E004BC35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839A547127D66F9E004BC35F /* Build configuration list for PBXNativeTarget "Badoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A547227D66F9E004BC35F /* Debug */,
+				839A547327D66F9E004BC35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839A547427D66F9E004BC35F /* Build configuration list for PBXNativeTarget "BadooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A547527D66F9E004BC35F /* Debug */,
+				839A547627D66F9E004BC35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		839A547727D66F9E004BC35F /* Build configuration list for PBXNativeTarget "BadooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				839A547827D66F9E004BC35F /* Debug */,
+				839A547927D66F9E004BC35F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 839A544527D66F9D004BC35F /* Project object */;
+}
