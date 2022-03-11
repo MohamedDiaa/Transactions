@@ -14,16 +14,7 @@ struct ExchangeRate: Codable {
     let rate: String
 }
 
-struct RateNode {
-
-    let currency: String
-    let edges: [RateEdge]
-}
-struct RateEdge{
-    
-}
-
-func getNodes(rates: [ExchangeRate])-> [String] {
+func createExchangeList(rates: [ExchangeRate])-> ExchangeList {
 
    let result = rates.map { rate in
         
@@ -32,23 +23,20 @@ func getNodes(rates: [ExchangeRate])-> [String] {
     
     let uniques = Array(Set(result))
     
-    print("nodes")
-    print(uniques)
+  //  print(uniques)
 
-    return uniques
+    let list = ExchangeList()
+    
+    for i in uniques {
+        list.createCurrency(i)
+    }
+    
+    for rate in rates {
+        list.addRate(from: rate.from, to: rate.to, value: Double(rate.rate) ?? 0.0)
+    }
+    
+    return list
 }
-
-/*
- extension Array where Element: Equatable {
-     func removingDuplicates() -> Array {
-         return reduce(into: []) { result, element in
-             if !result.contains(element) {
-                 result.append(element)
-             }
-         }
-     }
- }
-*/
 
 func loadRates() -> [ExchangeRate] {
     
@@ -59,7 +47,8 @@ func loadRates() -> [ExchangeRate] {
 }
 
 func loadPropertyList<T: Codable>(type: T.Type, resourceName: String) throws -> T? {
-        guard let url = Bundle.main.url(forResource: resourceName, withExtension: "plist")
+      
+    guard let url = Bundle.main.url(forResource: resourceName, withExtension: "plist")
         else{ throw URLError.cannotLoadURL }
         let data = try Data(contentsOf: url)
         let items = try PropertyListDecoder().decode(type, from: data)

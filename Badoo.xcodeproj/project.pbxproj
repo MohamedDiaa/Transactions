@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832BD8D527DBA61500678436 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832BD8D427DBA61500678436 /* Currency.swift */; };
+		832BD8D827DBA64E00678436 /* ExchangeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832BD8D727DBA64E00678436 /* ExchangeList.swift */; };
+		832BD8DA27DBA82100678436 /* QueueArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 832BD8D927DBA82100678436 /* QueueArray.swift */; };
 		839A545127D66F9D004BC35F /* BadooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A545027D66F9D004BC35F /* BadooApp.swift */; };
 		839A545327D66F9D004BC35F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839A545227D66F9D004BC35F /* ContentView.swift */; };
 		839A545527D66F9E004BC35F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839A545427D66F9E004BC35F /* Assets.xcassets */; };
@@ -40,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		832BD8D427DBA61500678436 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		832BD8D727DBA64E00678436 /* ExchangeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeList.swift; sourceTree = "<group>"; };
+		832BD8D927DBA82100678436 /* QueueArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueArray.swift; sourceTree = "<group>"; };
 		839A544D27D66F9D004BC35F /* Badoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Badoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		839A545027D66F9D004BC35F /* BadooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadooApp.swift; sourceTree = "<group>"; };
 		839A545227D66F9D004BC35F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +89,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		832BD8D327DBA60500678436 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				832BD8D427DBA61500678436 /* Currency.swift */,
+				832BD8D727DBA64E00678436 /* ExchangeList.swift */,
+				832BD8D927DBA82100678436 /* QueueArray.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
 		839A544427D66F9D004BC35F = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +172,7 @@
 		839A547D27D66FC8004BC35F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				832BD8D327DBA60500678436 /* Graph */,
 				839A547E27D66FDA004BC35F /* Transaction.swift */,
 				83B2C8BE27D74D0C00A3649A /* ExchangeRate.swift */,
 			);
@@ -301,11 +318,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				832BD8D827DBA64E00678436 /* ExchangeList.swift in Sources */,
 				839A545327D66F9D004BC35F /* ContentView.swift in Sources */,
 				839A545127D66F9D004BC35F /* BadooApp.swift in Sources */,
+				832BD8DA27DBA82100678436 /* QueueArray.swift in Sources */,
 				83B2C8BA27D6799A00A3649A /* TransactionList.swift in Sources */,
 				839A547F27D66FDA004BC35F /* Transaction.swift in Sources */,
 				83B2C8BF27D74D0C00A3649A /* ExchangeRate.swift in Sources */,
+				832BD8D527DBA61500678436 /* Currency.swift in Sources */,
 				83B2C8BC27D67A5300A3649A /* TransactionDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

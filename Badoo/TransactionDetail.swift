@@ -10,7 +10,6 @@ import SwiftUI
 struct TransactionDetail: View {
     
     let rates: [ExchangeRate] = []
-    let nodes = getNodes(rates: loadRates())
     var item: Item
     
     var body: some View {

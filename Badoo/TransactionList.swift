@@ -14,8 +14,6 @@ struct TransactionList: View {
     var body: some View {
         
         NavigationView {
-            
-            
             VStack {
                 
                 ScrollView(.vertical){
